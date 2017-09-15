@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        canvas {
+            border:1px solid #cccccc;
+        }
+        div{
+            width: 70px;
+            height: 30px;
+           background-color: rgba(209,202,67,0.4);
+            position: absolute;
+            top: 566px;
+            left: 666px;
+            text-align: center;
+            line-height: 30px;
+            color: #fff;
+            font-size: 18px;
+        }
+        p{
+            font-size: 50px;
+            color: hotpink;
+            position: absolute;
+            left: 280px;
+            top: 200px;
+            /*display: none;*/
+            transform: translateY(-400px);
+            transition: all 1s;
+        }
+    </style>
+</head>
+<body>
+<canvas width=800 height=600></canvas>
+<div>得分: 0</div>
+<p>恭喜过关</p>
+<script src="js/fb.js"></script>
+<script src="js/sky.js"></script>
+<script src="js/pipe.js"></script>
+<script src="js/land.js"></script>
+<script src="js/bird.js"></script>
+<script src="js/game.js"></script>
+</body>
+</html>
